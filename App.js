@@ -13,7 +13,7 @@ if(searchUser!=null){
             // Make http call
             github.getUser(userText).then(data => {
                if(data.profile.message == 'Not Found'){
-                   //window.alert('User Not Found');
+                   ui.showAlert('User Not Found..!' , 'alert alert-danger');
                }else{
                    //Show Profile
                    ui.showProfile(data.profile);

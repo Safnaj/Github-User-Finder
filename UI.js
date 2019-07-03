@@ -1,6 +1,7 @@
 class UI{
     constructor(){
         this.profile = document.getElementById('profile');
+        this.userError = document.getElementById('userError');
     }
 
     showProfile(user){
@@ -33,5 +34,32 @@ class UI{
 
     clearProfile(){
         this.profile.innerHTML = '';
+    }
+
+    showAlert(message, className){
+
+       this.clearAlert();
+        
+       const div = document.createElement('div');
+       div.className = className;
+       div.appendChild(document.createTextNode(message));
+
+       const container = document.querySelector('.searchContainer');
+       const search = document.querySelector('.search');
+       container.insertBefore(div, search);
+
+       //Timeout
+       setTimeout(() => {
+            this.clearAlert();
+       },2000);     //2000 Milli Seconds
+
+    }
+
+    clearAlert(){
+        const currentAlert = document.querySelector('.alert');
+
+        if(currentAlert){
+            currentAlert.remove();
+        }
     }
 }
