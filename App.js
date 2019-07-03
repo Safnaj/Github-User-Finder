@@ -16,9 +16,13 @@ if(searchUser!=null){
                    //window.alert('User Not Found');
                }else{
                    //Show Profile
+                   ui.showProfile(data.profile);
                }
              })
-           } 
+        }else{
+            //Clear Profile
+            ui.clearProfile();
+        } 
     });
 
 }else{
