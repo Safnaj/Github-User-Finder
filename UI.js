@@ -67,6 +67,9 @@ class UI{
         if(currentAlert){
             currentAlert.remove();
         }
+
+        //Clear Profile after Not Found Message
+        this.clearProfile();
     }
 
     showRepos(repos) {
