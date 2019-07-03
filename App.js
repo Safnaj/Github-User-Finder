@@ -1,3 +1,8 @@
+/**
+ * Author Safnaj on 03/07/2019
+ * Project Github-User-Finder
+ **/
+
 const github = new Github;
 const ui = new UI;
 
@@ -17,6 +22,7 @@ if(searchUser!=null){
                }else{
                    //Show Profile
                    ui.showProfile(data.profile);
+                   ui.showRepos(data.repos);
                }
              })
         }else{
