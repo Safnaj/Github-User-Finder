@@ -72,6 +72,7 @@ class UI{
         this.clearProfile();
     }
 
+    //Display Repos Details
     showRepos(repos) {
         let output = '';
     
