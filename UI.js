@@ -10,6 +10,7 @@ class UI{
         this.userError = document.getElementById('userError');
     }
 
+    //Display Profile Details
     showProfile(user){
         this.profile.innerHTML = `
         <div class="card card-body mb-3">
