@@ -39,6 +39,7 @@ class UI{
       `;
     }
 
+    //Clearing Profile
     clearProfile(){
         this.profile.innerHTML = '';
     }
