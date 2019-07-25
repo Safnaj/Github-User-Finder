@@ -62,7 +62,8 @@ class UI{
        },2000);     //2000 Milli Seconds
 
     }
-
+    
+    //Clear Alert
     clearAlert(){
         const currentAlert = document.querySelector('.alert');
 
