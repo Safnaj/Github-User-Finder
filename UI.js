@@ -44,6 +44,7 @@ class UI{
         this.profile.innerHTML = '';
     }
 
+    //Alert Message
     showAlert(message, className){
 
        this.clearAlert();
