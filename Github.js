@@ -19,6 +19,7 @@ class Github{
         const profile = await profileResponse.json(); //Storing Profile Response
         const repos = await repoResponse.json();      //Storing Repo Response
     
+        //returns
         return {
           profile,
           repos
