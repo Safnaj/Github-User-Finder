@@ -2,4 +2,4 @@
 Github User Finder Application usng Github API &amp; JavaScript
 
 ### Tools and Technologies:
-* **Technology** : Github API , JavaScript (ES5)
+* **Technology** : HTML, CSS, Github API ,JavaScript (ES5)
