@@ -1,4 +1,4 @@
-# Github-User-Finder
+# GitHub-User-Finder
 Github User Finder Application Developed using Github API &amp; JavaScript
 
 ### Tools and Technologies:
